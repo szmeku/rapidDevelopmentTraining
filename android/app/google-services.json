@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "1072375083082",
+    "project_id": "super-todos-app-t6xcjw",
+    "storage_bucket": "super-todos-app-t6xcjw.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1072375083082:android:9cdf604dfbd9bb85b3b6b3",
+        "android_client_info": {
+          "package_name": "com.mycompany.supertodosapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1072375083082-o9v92fl0jgnqdu5o04l2jbdenvdgjbqe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mycompany.supertodosapp",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "1072375083082-dkdup7lm72en4al5krpclu4l8amacgh8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvlFt1Sgkx0Dg9Oz-bFbXJa6gC30NeTBA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1072375083082-dkdup7lm72en4al5krpclu4l8amacgh8.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1072375083082-3kiihp7kjkbhdul4hh47292t5u09vksa.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mycompany.supertodosapp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1072375083082-3kiihp7kjkbhdul4hh47292t5u09vksa.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1072375083082-3kiihp7kjkbhdul4hh47292t5u09vksa</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>1072375083082-o9v92fl0jgnqdu5o04l2jbdenvdgjbqe.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBGFqWKh4y5-Pay_41Fql56rQh74RQ60dE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1072375083082</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.mycompany.supertodosapp</string>
+	<key>PROJECT_ID</key>
+	<string>super-todos-app-t6xcjw</string>
+	<key>STORAGE_BUCKET</key>
+	<string>super-todos-app-t6xcjw.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1072375083082:ios:ca602e4687a46ef8b3b6b3</string>
+</dict>
+</plist>

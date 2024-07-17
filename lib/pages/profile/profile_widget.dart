@@ -96,6 +96,23 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                               letterSpacing: 0.0,
                             ),
                       ),
+                      Text(
+                        currentUserUid,
+                        style: FlutterFlowTheme.of(context).bodyMedium.override(
+                              fontFamily: 'Readex Pro',
+                              letterSpacing: 0.0,
+                            ),
+                      ),
+                      AuthUserStreamWidget(
+                        builder: (context) => Text(
+                          currentUserDisplayName,
+                          style:
+                              FlutterFlowTheme.of(context).bodyMedium.override(
+                                    fontFamily: 'Readex Pro',
+                                    letterSpacing: 0.0,
+                                  ),
+                        ),
+                      ),
                     ],
                   ),
                 ],

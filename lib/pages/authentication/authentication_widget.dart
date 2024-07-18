@@ -549,7 +549,7 @@ class _AuthenticationWidgetState extends State<AuthenticationWidget>
                                                         }
 
                                                         context.goNamedAuth(
-                                                            'Profile',
+                                                            'questions',
                                                             context.mounted);
                                                       },
                                                       text: 'Sign In',
@@ -747,7 +747,7 @@ class _AuthenticationWidgetState extends State<AuthenticationWidget>
                                                                   }
 
                                                                   context.goNamedAuth(
-                                                                      'Profile',
+                                                                      'questions',
                                                                       context
                                                                           .mounted);
                                                                 },
@@ -830,7 +830,7 @@ class _AuthenticationWidgetState extends State<AuthenticationWidget>
                                                                         }
 
                                                                         context.goNamedAuth(
-                                                                            'Profile',
+                                                                            'questions',
                                                                             context.mounted);
                                                                       },
                                                                       text:
@@ -1353,7 +1353,7 @@ class _AuthenticationWidgetState extends State<AuthenticationWidget>
                                                         }
 
                                                         context.goNamedAuth(
-                                                            'Profile',
+                                                            'questions',
                                                             context.mounted);
                                                       },
                                                       text: 'Create Account',
@@ -1492,7 +1492,7 @@ class _AuthenticationWidgetState extends State<AuthenticationWidget>
                                                                   }
 
                                                                   context.goNamedAuth(
-                                                                      'Profile',
+                                                                      'questions',
                                                                       context
                                                                           .mounted);
                                                                 },
@@ -1575,7 +1575,7 @@ class _AuthenticationWidgetState extends State<AuthenticationWidget>
                                                                         }
 
                                                                         context.goNamedAuth(
-                                                                            'Profile',
+                                                                            'questions',
                                                                             context.mounted);
                                                                       },
                                                                       text:

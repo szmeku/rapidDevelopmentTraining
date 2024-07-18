@@ -72,25 +72,28 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
       debugLogDiagnostics: true,
       refreshListenable: appStateNotifier,
       errorBuilder: (context, state) =>
-          appStateNotifier.loggedIn ? const ProfileWidget() : const AuthenticationWidget(),
+          appStateNotifier.loggedIn ? const QuestionsWidget() : const WelcomeWidget(),
       routes: [
         FFRoute(
           name: '_initialize',
           path: '/',
-          builder: (context, _) => appStateNotifier.loggedIn
-              ? const ProfileWidget()
-              : const AuthenticationWidget(),
-        ),
-        FFRoute(
-          name: 'Profile',
-          path: '/profile',
-          requireAuth: true,
-          builder: (context, params) => const ProfileWidget(),
+          builder: (context, _) =>
+              appStateNotifier.loggedIn ? const QuestionsWidget() : const WelcomeWidget(),
         ),
         FFRoute(
           name: 'Authentication',
           path: '/authentication',
           builder: (context, params) => const AuthenticationWidget(),
+        ),
+        FFRoute(
+          name: 'questions',
+          path: '/questions',
+          builder: (context, params) => const QuestionsWidget(),
+        ),
+        FFRoute(
+          name: 'welcome',
+          path: '/welcome',
+          builder: (context, params) => const WelcomeWidget(),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
     );
@@ -261,7 +264,7 @@ class FFRoute {
 
           if (requireAuth && !appStateNotifier.loggedIn) {
             appStateNotifier.setRedirectLocationIfUnset(state.uri.toString());
-            return '/authentication';
+            return '/welcome';
           }
           return null;
         },
